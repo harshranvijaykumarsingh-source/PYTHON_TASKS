@@ -1,0 +1,15 @@
+"""   CREATE A PROGRAM THAT ASK FOR CUSTOMER NAME, FOOD ITEM , QUANTITY,
+PRICE PER ITEM.  """
+
+CUSTOMER = input("ENTER CUSTOMER NAME :")
+ITEM = input(" ENTER FOOD ITEM :")
+QUANTITY = int(input("QUANTITY : "))
+price = int(input("PRICE :"))
+
+SubTOTAL = QUANTITY * price
+GST = SubTOTAL * 5/100
+
+print("SubTotal :",SubTOTAL)
+print("GST :",GST)
+print("TOTAL AMOUNT :",SubTOTAL + GST)
+

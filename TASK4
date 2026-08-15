@@ -1,0 +1,11 @@
+# SHOPPING BILL
+
+PRODUCT = input("ENTER PRODUCT NAME :")
+QUANTITY = int(input("ENTER QUANTITY :"))
+PRICE = int(input("ENTER PRICE OF THE PRODUCT :"))
+
+print("=======  BILL =======")
+print("PRODUCT NAME :",PRODUCT)
+print("QUANTITY :",QUANTITY)
+print("PRICE :",QUANTITY*PRICE)
+print("====== THANK YOU ======")
