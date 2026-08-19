@@ -1,0 +1,11 @@
+#employee Salaries
+
+Salaries = [25000,45000,32000,55000,28000]
+
+print("HIGHEST SALARY :",max(Salaries))
+print("LOWEST SALARY :",min(Salaries))
+print("AVERAGE SALARY :",sum(Salaries) / len(Salaries))
+print("salary above 40000 :")
+for salary in Salaries:
+    if salary > 40000 :
+          print( salary )

@@ -1,0 +1,21 @@
+#shopping cart
+
+cart = ["Laptop","Mouse","Keyboard"]
+
+# add into cart
+cart.append("Pendrive")
+print(cart)
+
+#remove from cart
+cart.remove("Keyboard")
+print(cart)
+
+#check if product exists in cart
+if "Laptop" in cart:
+    print("Laptop exits")
+else:
+     ("Latop does not exits")
+
+#display total number of products
+print("Total number of products : ",len(cart))
+ 

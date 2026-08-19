@@ -1,0 +1,14 @@
+#login  attempts
+
+attempts = ["success","failed","failed","success","failed"]
+
+successful = 0
+failed = 0
+
+for attempt in attempts:
+    if attempt =="success":
+        successful +=1 
+    elif attempt =="failed":
+        failed +=1
+print("succesful attempt",successful)
+print("failed attempt",failed)
