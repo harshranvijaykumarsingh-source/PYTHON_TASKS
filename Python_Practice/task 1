@@ -1,13 +1,13 @@
 #student marks
 
 marks = [78,85,92,67,88]
-#
 print(f"HIGHEST MARKS : {max(marks)}")
 print(f"LOWEST MARKS : {min(marks)}")
 print(f"AVERAGE : {sum(marks) / len(marks)}")
 
-above_80 = 0
+above_80 = 0 
 for mark in marks:
-    if mark > 80:
+    if mark >80:
         above_80 += 1
 print("STUDENTS WHO SCORED ABOVE 80 : ",above_80)
+ 

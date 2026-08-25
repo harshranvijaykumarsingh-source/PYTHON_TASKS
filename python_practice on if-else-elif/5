@@ -1,0 +1,18 @@
+# If the number is positive AND even → print "Positive Even"
+# If the number is positive AND odd → print "Positive Odd"
+# If the number is negative AND even → print "Negative Even"
+# If the number is negative AND odd → print "Negative Odd"
+# If the number is 0 → print "Zero"
+
+num = int(input("Enter a number: "))
+
+if num > 0 and num % 2 == 0:
+    print("Positive and EVEN")
+elif num > 0 and num % 2 != 0:
+    print("Positive and ODD")
+elif num <0 and num % 2 == 0:
+    print("Negative and EVEN")
+elif num <0 and num % 2 != 0:
+    print("Negative and ODD")
+else:
+    print("ZERO")

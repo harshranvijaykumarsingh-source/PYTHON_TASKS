@@ -1,0 +1,18 @@
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
+
+if num1 == num2 == num3:
+    print("All numbers are equal")
+
+elif num1 == num2 and num1 > num3:
+    print("There is a tie")
+
+elif num1 == num3 and num1 > num2:
+    print("There is a tie")
+
+elif num2 == num3 and num2 > num1:
+    print("There is a tie")
+
+else:
+    print(max(num1, num2, num3))

@@ -1,0 +1,24 @@
+# If marks are 40 or above → PASS
+# Otherwise → FAIL
+
+marks = int(input("Enter your marks: "))
+
+if marks >= 40:
+    print("PASS")
+else:
+    print("FAIL")
+print("--------------------------")
+
+# If num1 is greater, print num1
+# Otherwise, print num2
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+if num1 > num2:
+    print(num1)
+else:
+    print(num2)
+
+
+
